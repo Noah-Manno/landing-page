@@ -1,35 +1,106 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    overflow: hidden;
-    position: fixed;
-}
-
-li {
-    display: inline;
-}
-
-li a {
-    display: block;
-    width: 150px;
-    color:white;
-    float: right;
-    border: solid 3px white;
+header p {
     text-align: center;
+    font-weight: 200;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 6px;
+    font-size: 25px;
+    margin-top: 60px;
 }
 
-li :hover {
-color: aqua;
-background-color: blue;
+header h6 {
+    text-align: center;
+    font-weight: 200;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: gray;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 15px;
+    font-size: 10px;
 }
 
-h1 {
-    text-align: right;
-    background-color: gray;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: fixed 1000px;
+main {
+    min-height: 100vh;
+    margin-bottom: -21rem;
+}
 
+footer {
+    background-color: #2e2a2a;
+    width: 100vw;
+    height: 22rem;
+    overflow: ;
+}
+
+.push {
+    height: 20rem;
+}
+
+.background {
+width: 100vw;
+height: 135vh;
+}
+
+.front {
+    width: 70vw;
+    position: absolute;
+    left: 16%;
+    bottom: -40vh;
+}
+
+.contact {
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    left: 51vw;
+}
+
+.projects {
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    left: 39vw;
+}
+
+a:hover {
+color: gray;
+}
+
+.fb {
+    width: 40px;
+    height: 40px;
+    filter: invert(80%);
+    position: relative;
+    left: 45vw;
+    top:100px
+}
+
+.insta {
+    width: 40px;
+    height: 40px;
+    filter: invert(70%);
+    position: relative;
+    left: 45vw;
+    top:100px
+}
+
+.email {
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+    position: relative;
+    left: 45vw;
+    top:100px
+}
+
+.proj-img {
+    width: 100vw;
 }
