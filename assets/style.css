@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    
 }
 header p {
     text-align: center;
@@ -36,7 +37,6 @@ footer {
     background-color: #2e2a2a;
     width: 100vw;
     height: 22rem;
-    overflow: ;
 }
 
 .push {
