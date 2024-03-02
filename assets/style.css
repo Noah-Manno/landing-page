@@ -1,7 +1,9 @@
+/* remove white space: fixing margins */
 body {
     margin: 0;
     padding: 0;
-    
+
+/* Title Styling and Link Styling*/   
 }
 header p {
     text-align: center;
@@ -27,93 +29,87 @@ header h6 {
     bottom: 15px;
     font-size: 10px;
 }
+/* Main Content and Background Image */
+.landing {
+    min-height: 100vh;
+    margin-bottom: -21rem;
+    background-image: url('Audio\ Mixing\ Board.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 main {
     min-height: 100vh;
     margin-bottom: -21rem;
 }
 
+/* Sticky Footer*/
 footer {
     background-color: #2e2a2a;
     width: 100vw;
     height: 22rem;
 }
-
 .push {
-    height: 20rem;
+    height: 25rem;
 }
+/*Sticky Footer */
 
-.background {
-width: 100vw;
-height: 135vh;
-}
-
+/*Main Page Image*/
 .front {
-    width: 70vw;
-    position: absolute;
-    left: 16%;
-    bottom: -40vh;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin-top: 10%;
 }
 
-.contact {
+/*Subpage links*/
+.subpages {
     color: white;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     text-decoration: none;
     font-weight: 200;
     letter-spacing: 2px;
     padding: 20px;
-    position: absolute;
-    top: 200px;
-    left: 51vw;
 }
 
-.projects {
-    color: white;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    font-weight: 200;
-    letter-spacing: 2px;
-    padding: 20px;
-    position: absolute;
-    top: 200px;
-    left: 39vw;
+.directory {
+    text-align: center;
+    padding-top: 5%;
 }
 
 a:hover {
 color: gray;
 }
 
+/* Social Media Pictures + Links */
 .fb {
     width: 40px;
     height: 40px;
     filter: invert(80%);
-    position: relative;
-    left: 45vw;
-    top:100px
+    
 }
 
 .insta {
     width: 40px;
     height: 40px;
     filter: invert(70%);
-    position: relative;
-    left: 45vw;
-    top:100px
+   
 }
 
 .email {
     width: 40px;
     height: 40px;
     filter: invert(100%);
-    position: relative;
-    left: 45vw;
-    top:100px
+    
 }
 
-.proj-img {
-    width: 100vw;
+.socials {
+    text-align: center;
+    padding-top: 10%;
 }
 
+/* Text Stylings */
 h1 {
     text-align: center;
     font-weight: 100;
@@ -131,10 +127,6 @@ h5 {
     font-weight: 400;
 }
 
-hr {
-    margin: 60px;
-}
-
 h3{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -142,6 +134,13 @@ h3{
     font-weight: 400;
 }
 
+/*Horizontal Lines*/
+hr {
+    margin: 60px;
+}
+
+
+/*Album Cover Photos*/
 .albums {
     display: block;
     width: 17vw;
@@ -151,6 +150,7 @@ h3{
     
 }
 
+/* Song Descriptions*/
 .songs {
     margin-left: 7vw;
     padding-top: 20px;
@@ -173,14 +173,33 @@ h3{
     color: gray;
 }
 
+/*Contact Page text and links*/
 .contact-mail {
     color: #8a90a1;
 }
 
+/* Contact Page Studio Photo*/
 .studio {
-    width: 60vw;
+    width: 80vw;
     position: relative;
-    left: 260px;
-    padding-bottom: 150px;
+    padding: 10vw;
 
+}
+
+/*Contact Page Background Image*/
+.guitar {
+    background-image: url('Contact\ Pic.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 13%;
+}
+
+/*Projects Page Background Image*/
+.recording {
+    background-image: url('Projects\ Photo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 13%;
 }
